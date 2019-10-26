@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+.main {
+  background-color: gray;
+  width: 700px;
+  height: 466px;
+  background-image: url(../img/backgroung.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.main .math a {
+  text-decoration-line: none;
+  color: black;
+}
+.math {
+  display: block;
+  margin-left: 16%;
+  width: 25%;
+  /* transition: 1s; */
+  height: 8%;
+  font-size: 14px;
+  border-radius: 15px 0;
+  border: 2px solid #4848488c;
+  background-color: #ffeb00;
+}
+.math:hover {
+  transition: 1s;
+  box-shadow: 0 0 10px 0 black;
+}
+.main h2 {
+  padding-left: 10%;
+  padding-top: 6%;
+}
+.discryption {
+  position: relative;
+  width: 95%;
+  top: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+  background-color: #ffffffbf;
+}
+.discryption_title {
+  position: absolute;
+  margin: 0 auto;
+  top: 68%;
+  left: 3%;
+  font-size: 23px;
+}
