@@ -2,7 +2,7 @@ const path = require('path');
 const url = require('url');
 const { app, BrowserWindow } = require('electron');
 
-let win; // test
+let win;
 
 function createWindow() {
   win = new BrowserWindow({
